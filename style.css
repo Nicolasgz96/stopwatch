@@ -1,0 +1,80 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+/* Container for the timer */
+.container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Timer display styles */
+.timer {
+    font-size: 3em;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 2px solid #333333;
+    border-radius: 10px;
+    width: 200px;
+    margin: 0 auto;
+}
+
+/* Controls container styles */
+.controls {
+    display: flex;
+    justify-content: center;
+}
+
+/* General button styles */
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+button:focus {
+    outline: none;
+}
+
+/* Start button styles */
+button#start {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+}
+
+button#start:hover {
+    background-color: #45a049;
+}
+
+/* Pause button styles */
+button#pause {
+    background-color: #f44336;
+    color: white;
+    border: none;
+}
+
+button#pause:hover {
+    background-color: #da190b;
+}
+
+/* Reset button styles */
+button#reset {
+    background-color: #008CBA;
+    color: white;
+    border: none;
+}
+
+button#reset:hover {
+    background-color: #005b7f;
+}
