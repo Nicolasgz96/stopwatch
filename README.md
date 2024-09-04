@@ -21,7 +21,7 @@ This project is a simple, elegant stopwatch web application built using HTML, CS
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/stopwatch-app.git
+   git clone https://github.com/Nicolasgz96/stopwatch
    ```
 2. Navigate to the project directory:
    ```
